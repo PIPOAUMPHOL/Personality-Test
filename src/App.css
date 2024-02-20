@@ -1,0 +1,19 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+@media (min-width: 721px) {
+  * {
+    display: none;
+  }
+}
